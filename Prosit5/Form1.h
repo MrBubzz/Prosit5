@@ -24,9 +24,7 @@ namespace testWin {
 		Form1(void)
 		{
 			InitializeComponent();
-			//
-			//TODO: ajoutez ici le code du constructeur
-			//
+			this->svcFichier = gcnew NS_services::CLserviceFichier();
 		}
 
 	protected:
